@@ -1,4 +1,4 @@
-window.addEventListener('DOMContentLoaded', () => {
+window.addEventListener('load', () => {
     console.log('loaded')
     const square = document.querySelectorAll('.square');
     const mole = document.querySelectorAll('.mole');
