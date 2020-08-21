@@ -59,3 +59,50 @@ h1 {
 .score {
     margin: auto 0
 }
+
+.pop-up {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 30%;
+    z-index: 1;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #222;
+    color: white;
+}
+
+.pop-up {
+    font-size: 2em;
+}
+
+.pop-up button {
+    margin-top: 2em;
+    border: 1px grey solid;
+    border-radius: 2px;
+    width: 8em;
+    height: 3em;
+    background-color: rgb(73, 77, 73);
+    font-weight: 600;
+    color: rgb(90, 255, 85);
+}
+
+.pop-up span {
+    margin-top: 1em;
+    display: block;
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
+
+.highScore {
+    padding: 10px;
+    margin-bottom: 6em;
+    background-color: greenyellow;
+}

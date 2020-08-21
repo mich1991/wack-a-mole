@@ -12,13 +12,17 @@
     <h1>Wack a Mole!</h1>
     <div class="container">
         <div class="score">
+            <div class="highScore">
+                <h2>High Score:</h2>
+                <h3>0</h3>
+            </div>
             <h2>Score:</h2>
             <h3 id="score">0</h3>
         </div>
 
         <div class="time">
             <h2>Time left:</h2>
-            <h2 id="timeleft">60</h2>
+            <h2 id="timeleft">10</h2>
         </div>
         <div class="grid">
             <div class="square" id="1"></div>
@@ -30,9 +34,15 @@
             <div class="square" id="7"></div>
             <div class="square" id="8"></div>
             <div class="square" id="9"></div>
-
+        </div>
+        <div class="pop-up hidden">
+            Game Over! Your score is : <span></span>
+            <button>Play Again</button>
         </div>
     </div>
+    <audio id="gameSound" src="./sounds/441521__nadia4sound__high-energy-loop.wav"></audio>
+    <audio id="countDown" src="./sounds/259705__davidbain__10-second-count-down.wav"></audio>
+    <audio id="gameOver" src="./sounds/477842__mattiagiovanetti__little-arcade-fanfare-ii.wav"></audio>
 </body>
 <script src="app.js"></script>
 
